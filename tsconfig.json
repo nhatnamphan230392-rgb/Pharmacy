@@ -1,3 +1,30 @@
 {
-  "extends": "@react-native/typescript-config"
+  "extends": "@react-native/typescript-config",
+  "compilerOptions": {
+    "types": ["jest"],
+    "baseUrl": ".",
+    "paths": {
+      "@components": ["./app/components"],
+      "@components/*": ["./app/components/*"],
+      "@services": ["./app/services"],
+      "@services/*": ["./app/services/*"],
+      "@navigation": ["./app/navigation"],
+      "@navigation/*": ["./app/navigation/*"],
+      "@assets": ["./app/assets"],
+      "@assets/*": ["./app/assets/*"],
+      "@theme": ["./app/theme"],
+      "@theme/*": ["./app/theme/*"],
+      "@utils": ["./app/utils"],
+      "@utils/*": ["./app/utils/*"],
+      "@screens": ["./app/screens"],
+      "@screens/*": ["./app/screens/*"],
+      "@redux": ["./app/redux"],
+      "@redux/*": ["./app/redux/*"]
+    },
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true
+  },
+  "include": ["**/*.ts", "**/*.tsx"],
+  "exclude": ["**/node_modules", "**/Pods"]
 }

@@ -1,27 +1,59 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- */
-
-import { NewAppScreen } from '@react-native/new-app-screen';
-import { StatusBar, StyleSheet, useColorScheme, View } from 'react-native';
+import React, { useCallback, useEffect } from 'react';
+import { StatusBar, StyleSheet } from 'react-native';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
+import { Provider } from 'react-redux';
+import { PersistGate } from 'redux-persist/integration/react';
+import { store, persistor } from '@redux';
+import { AppNavigator } from '@navigation';
 
 function App() {
-  const isDarkMode = useColorScheme() === 'dark';
+  useEffect(() => {
+    console.log('[App] App component mounted');
+  }, []);
+
+  const onNavigationReady = useCallback(() => {
+    console.log('[App] Navigation ready');
+  }, []);
+
 
   return (
-    <View style={styles.container}>
-      <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
-      <NewAppScreen templateFileName="App.tsx" />
-    </View>
+    <Provider store={store}>
+      <PersistGate
+        persistor={persistor}
+      >
+        <SafeAreaProvider>
+          <StatusBar barStyle={'light-content'} />
+          <AppNavigator onReady={onNavigationReady} />
+        </SafeAreaProvider>
+      </PersistGate>
+    </Provider>
   );
 }
 
 const styles = StyleSheet.create({
-  container: {
+  errorContainer: {
     flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    padding: 20,
+    backgroundColor: '#fff',
+  },
+  errorText: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: '#ff0000',
+    marginBottom: 10,
+  },
+  errorDetails: {
+    fontSize: 14,
+    color: '#666',
+    textAlign: 'center',
+  },
+  loadingContainer: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#fff',
   },
 });
 

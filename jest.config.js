@@ -1,3 +1,37 @@
 module.exports = {
   preset: 'react-native',
+  watchman: false,
+  moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
+  moduleNameMapper: {
+    '^@components/(.*)$': '<rootDir>/app/components/$1',
+    '^@services/(.*)$': '<rootDir>/app/services/$1',
+    '^@navigation/(.*)$': '<rootDir>/app/navigation/$1',
+    '^@assets/(.*)$': '<rootDir>/app/assets/$1',
+    '^@theme/(.*)$': '<rootDir>/app/theme/$1',
+    '^@utils/(.*)$': '<rootDir>/app/utils/$1',
+    '^@screens/(.*)$': '<rootDir>/app/screens/$1',
+    '^@redux/(.*)$': '<rootDir>/app/redux/$1',
+    '^@components$': '<rootDir>/app/components',
+    '^@services$': '<rootDir>/app/services',
+    '^@navigation$': '<rootDir>/app/navigation',
+    '^@assets$': '<rootDir>/app/assets',
+    '^@theme$': '<rootDir>/app/theme',
+    '^@utils$': '<rootDir>/app/utils',
+    '^@screens$': '<rootDir>/app/screens',
+    '^@redux$': '<rootDir>/app/redux',
+  },
+  transformIgnorePatterns: [
+    'node_modules/(?!(react-native|@react-native|@react-navigation|@reduxjs|redux-persist|immer|react-redux|redux|react-native-reanimated|react-native-worklets|react-native-gesture-handler|react-native-safe-area-context|react-native-screens|react-native-svg|react-native-bootsplash|react-native-device-info)/)',
+  ],
+  setupFilesAfterEnv: ['<rootDir>/jest.setup.js'],
+  testMatch: [
+    '**/__tests__/**/*.(ts|tsx|js)',
+    '**/*.(test|spec).(ts|tsx|js)',
+  ],
+  collectCoverageFrom: [
+    'app/**/*.{ts,tsx}',
+    '!app/**/*.d.ts',
+    '!app/**/__tests__/**',
+    '!app/**/index.ts',
+  ],
 };
