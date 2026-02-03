@@ -33,7 +33,6 @@ export const isTabletMode = () => {
     const tabletValue = isTablet();
     return tabletValue === true;
   } catch (error) {
-    console.warn('Error checking tablet mode:', error);
     return false;
   }
 };

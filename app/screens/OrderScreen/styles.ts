@@ -1,4 +1,4 @@
-import { StyleSheet } from 'react-native';
+import { StyleSheet, Platform } from 'react-native';
 import { scaleWidth, scaleHeight, scaleFont } from '@utils';
 import { FontWeight } from '@services';
 import { Colors } from './constants/colors';
@@ -29,12 +29,12 @@ export const styles = StyleSheet.create({
     backgroundColor: Colors.TRANSPARENT,
   },
   backButton: {
-    fontSize: scaleFont(24),
+    fontSize: scaleFont(22),
     color: Colors.TEXT_BLACK,
   },
   headerTitle: {
-    fontSize: scaleFont(20),
-    ...FontWeight.FONT_WEIGHT_500,
+    fontSize: scaleFont(18),
+    ...FontWeight.FONT_WEIGHT_700,
     color: Colors.TEXT_BLACK,
     textAlign: 'center',
   },
@@ -43,7 +43,8 @@ export const styles = StyleSheet.create({
   },
   searchSection: {
     paddingHorizontal: scaleWidth(16),
-    paddingVertical: scaleHeight(12),
+    paddingTop: scaleHeight(12),
+    paddingBottom: scaleHeight(5),
   },
   searchBar: {
     flexDirection: 'row',
@@ -51,36 +52,43 @@ export const styles = StyleSheet.create({
     backgroundColor: Colors.BACKGROUND_WHITE,
     borderRadius: scaleWidth(8),
     paddingHorizontal: scaleWidth(12),
-    height: scaleHeight(44),
+    height: scaleHeight(55),
     borderWidth: 1,
     borderColor: Colors.BORDER_LIGHT,
   },
   searchIcon: {
-    fontSize: scaleFont(18),
+    width: scaleWidth(24),
+    height: scaleWidth(24),
     marginRight: scaleWidth(8),
   },
   searchInput: {
     flex: 1,
-    fontSize: scaleFont(16),
+    fontSize: scaleFont(14),
     color: Colors.TEXT_BLACK,
+    paddingVertical: 0,
+    ...(Platform.OS === 'android' && {
+      includeFontPadding: false,
+      textAlignVertical: 'center',
+    }),
   },
   categoryScroll: {
-    maxHeight: scaleHeight(50),
+    maxHeight: scaleHeight(70),
   },
   categoryContainer: {
     paddingLeft: scaleWidth(16),
     paddingRight: scaleWidth(16),
-    paddingVertical: scaleHeight(8),
+    paddingVertical: scaleHeight(12),
   },
   categoryButton: {
-    paddingHorizontal: scaleWidth(16),
-    borderRadius: scaleWidth(6),
+    paddingHorizontal: scaleWidth(24),
+    borderRadius: scaleWidth(8),
     borderWidth: 1,
     borderColor: Colors.BORDER_LIGHT,
     backgroundColor: Colors.BACKGROUND_WHITE,
-    marginRight: scaleWidth(8),
+    marginRight: scaleWidth(12),
     justifyContent: 'center',
     alignItems: 'center',
+    minHeight: scaleHeight(48),
   },
   categoryButtonLast: {
     marginRight: 0,
@@ -90,10 +98,15 @@ export const styles = StyleSheet.create({
     borderColor: '#15529A',
   },
   categoryButtonText: {
-    fontSize: scaleFont(14),
+    fontSize: scaleFont(13),
     color: Colors.TEXT_GRAY,
     textAlign: 'center',
+    lineHeight: scaleFont(17),
     ...FontWeight.FONT_WEIGHT_400,
+    ...(Platform.OS === 'android' && {
+      includeFontPadding: false,
+      textAlignVertical: 'center',
+    }),
   },
   categoryButtonTextActive: {
     color: Colors.TEXT_WHITE,
@@ -125,7 +138,7 @@ export const styles = StyleSheet.create({
     flexWrap: 'nowrap',
   },
   productName: {
-    fontSize: scaleFont(16),
+    fontSize: scaleFont(14),
     ...FontWeight.FONT_WEIGHT_400,
     color: Colors.TEXT_DARK,
     marginRight: scaleWidth(6),
@@ -140,17 +153,17 @@ export const styles = StyleSheet.create({
     alignSelf: 'flex-start',
   },
   rxText: {
-    fontSize: scaleFont(10),
+    fontSize: scaleFont(9),
     color: Colors.TEXT_WHITE,
     ...FontWeight.FONT_WEIGHT_500,
   },
   productCategory: {
-    fontSize: scaleFont(14),
+    fontSize: scaleFont(12),
     color: Colors.TEXT_LIGHT_GRAY,
     marginBottom: scaleHeight(4),
   },
   productPrice: {
-    fontSize: scaleFont(16),
+    fontSize: scaleFont(14),
     color: Colors.ACCENT_RED,
     ...FontWeight.FONT_WEIGHT_400,
   },
@@ -171,7 +184,7 @@ export const styles = StyleSheet.create({
     minWidth: 0,
   },
   quantityButtonText: {
-    fontSize: scaleFont(18),
+    fontSize: scaleFont(16),
     color: Colors.PRIMARY_BLUE,
     ...FontWeight.FONT_WEIGHT_500,
   },
@@ -189,7 +202,7 @@ export const styles = StyleSheet.create({
     backgroundColor: Colors.BACKGROUND_QUANTITY,
   },
   quantityText: {
-    fontSize: scaleFont(16),
+    fontSize: scaleFont(14),
     color: Colors.TEXT_BLACK,
     ...FontWeight.FONT_WEIGHT_500,
   },
@@ -206,7 +219,7 @@ export const styles = StyleSheet.create({
     borderBottomColor: Colors.BORDER_LIGHT,
   },
   categoryHeaderText: {
-    fontSize: scaleFont(22),
+    fontSize: scaleFont(18),
     ...FontWeight.FONT_WEIGHT_500,
     color: Colors.PRIMARY_BLUE,
   },
@@ -271,14 +284,14 @@ export const styles = StyleSheet.create({
     zIndex: 10,
   },
   cartBadgeText: {
-    fontSize: scaleFont(8),
+    fontSize: scaleFont(7),
     ...FontWeight.FONT_WEIGHT_500,
     color: Colors.TEXT_WHITE,
     textAlign: 'center',
-    lineHeight: scaleFont(14),
+    lineHeight: scaleFont(12),
   },
   summaryTitle: {
-    fontSize: scaleFont(16),
+    fontSize: scaleFont(14),
     ...FontWeight.FONT_WEIGHT_500,
     color: Colors.TEXT_DARK,
   },
@@ -298,21 +311,21 @@ export const styles = StyleSheet.create({
     borderTopColor: Colors.BORDER_LIGHT,
   },
   summaryLabel: {
-    fontSize: scaleFont(14),
+    fontSize: scaleFont(13),
     color: Colors.TEXT_GRAY,
   },
   summaryValue: {
-    fontSize: scaleFont(14),
+    fontSize: scaleFont(13),
     ...FontWeight.FONT_WEIGHT_400,
     color: Colors.TEXT_DARK,
   },
   summaryLabelTotal: {
-    fontSize: scaleFont(16),
+    fontSize: scaleFont(14),
     ...FontWeight.FONT_WEIGHT_500,
     color: Colors.TEXT_DARK,
   },
   summaryValueTotal: {
-    fontSize: scaleFont(18),
+    fontSize: scaleFont(16),
     ...FontWeight.FONT_WEIGHT_600,
     color: Colors.ACCENT_RED,
   },
@@ -334,16 +347,16 @@ export const styles = StyleSheet.create({
     paddingBottom: scaleHeight(20),
   },
   emptyStateTitle: {
-    fontSize: scaleFont(18),
+    fontSize: scaleFont(16),
     ...FontWeight.FONT_WEIGHT_500,
     color: Colors.TEXT_DARK,
     marginBottom: scaleHeight(8),
     textAlign: 'center',
   },
   emptyStateMessage: {
-    fontSize: scaleFont(14),
+    fontSize: scaleFont(13),
     color: Colors.TEXT_GRAY,
     textAlign: 'center',
-    lineHeight: scaleFont(20),
+    lineHeight: scaleFont(18),
   },
 });

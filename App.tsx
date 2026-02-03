@@ -8,11 +8,9 @@ import { AppNavigator } from '@navigation';
 
 function App() {
   useEffect(() => {
-    console.log('[App] App component mounted');
   }, []);
 
   const onNavigationReady = useCallback(() => {
-    console.log('[App] Navigation ready');
   }, []);
 
 

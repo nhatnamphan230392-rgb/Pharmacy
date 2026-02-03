@@ -138,7 +138,6 @@ const InputDefault = forwardRef<TextInput, InputDefaultProps>(
             <TouchableOpacity
               style={styles.eyeIcon}
               onPress={() => {
-                console.log('press');
                 setSecureTextEntry(!isSecureTextEntry);
               }}
             >

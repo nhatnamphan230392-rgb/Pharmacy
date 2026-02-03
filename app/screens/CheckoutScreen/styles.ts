@@ -31,8 +31,8 @@ export const styles = StyleSheet.create({
     tintColor: Colors.PRIMARY_BLUE,
   },
   headerTitle: {
-    fontSize: scaleFont(20),
-    ...FontWeight.FONT_WEIGHT_600,
+    fontSize: scaleFont(18),
+    ...FontWeight.FONT_WEIGHT_700,
     color: Colors.TEXT_DARK,
   },
   headerRight: {
@@ -73,7 +73,7 @@ export const styles = StyleSheet.create({
     alignItems: 'center',
   },
   productImageText: {
-    fontSize: scaleFont(24),
+    fontSize: scaleFont(22),
   },
   productDetails: {
     flex: 1,
@@ -92,7 +92,7 @@ export const styles = StyleSheet.create({
     flexShrink: 1,
   },
   productName: {
-    fontSize: scaleFont(16),
+    fontSize: scaleFont(14),
     ...FontWeight.FONT_WEIGHT_500,
     color: Colors.TEXT_DARK,
     marginRight: scaleWidth(2),
@@ -107,17 +107,17 @@ export const styles = StyleSheet.create({
     alignSelf: 'flex-start',
   },
   rxText: {
-    fontSize: scaleFont(10),
+    fontSize: scaleFont(9),
     ...FontWeight.FONT_WEIGHT_500,
     color: Colors.TEXT_WHITE,
   },
   productCategory: {
-    fontSize: scaleFont(14),
+    fontSize: scaleFont(12),
     color: Colors.TEXT_LIGHT_GRAY,
     marginBottom: scaleHeight(4),
   },
   unitPrice: {
-    fontSize: scaleFont(14),
+    fontSize: scaleFont(12),
     ...FontWeight.FONT_WEIGHT_400,
     color: Colors.ACCENT_RED,
   },
@@ -126,13 +126,13 @@ export const styles = StyleSheet.create({
     justifyContent: 'space-between',
   },
   totalPrice: {
-    fontSize: scaleFont(16),
+    fontSize: scaleFont(14),
     ...FontWeight.FONT_WEIGHT_500,
     color: Colors.TEXT_DARK,
     marginBottom: scaleHeight(4),
   },
   quantity: {
-    fontSize: scaleFont(14),
+    fontSize: scaleFont(13),
     ...FontWeight.FONT_WEIGHT_400,
     color: Colors.TEXT_GRAY,
   },
@@ -166,7 +166,7 @@ export const styles = StyleSheet.create({
     marginBottom: scaleHeight(16),
   },
   summaryTitle: {
-    fontSize: scaleFont(18),
+    fontSize: scaleFont(16),
     ...FontWeight.FONT_WEIGHT_600,
     color: Colors.TEXT_DARK,
     marginBottom: scaleHeight(12),
@@ -178,22 +178,22 @@ export const styles = StyleSheet.create({
     marginBottom: scaleHeight(8),
   },
   summaryLabel: {
-    fontSize: scaleFont(14),
+    fontSize: scaleFont(13),
     ...FontWeight.FONT_WEIGHT_400,
     color: Colors.TEXT_GRAY,
   },
   summaryValue: {
-    fontSize: scaleFont(14),
+    fontSize: scaleFont(13),
     ...FontWeight.FONT_WEIGHT_500,
     color: Colors.TEXT_DARK,
   },
   summaryLabelTotal: {
-    fontSize: scaleFont(16),
+    fontSize: scaleFont(14),
     ...FontWeight.FONT_WEIGHT_600,
     color: Colors.TEXT_DARK,
   },
   summaryValueTotal: {
-    fontSize: scaleFont(18),
+    fontSize: scaleFont(16),
     ...FontWeight.FONT_WEIGHT_600,
     color: Colors.ACCENT_RED,
   },

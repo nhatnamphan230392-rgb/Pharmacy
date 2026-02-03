@@ -45,7 +45,6 @@ export const OrderProductItem: React.FC<OrderProductItemProps> = ({
             });
           });
         } catch (error) {
-          console.warn('Failed to measure product name position:', error);
         }
       }
       onQuantityChange(item, 1);

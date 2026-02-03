@@ -1,7 +1,7 @@
 import React from 'react';
-import { View, TextInput } from 'react-native';
-import { AppText } from '@components';
+import { View, TextInput, Image } from 'react-native';
 import { styles } from '../styles';
+import { SearchIcon } from '@assets/images';
 
 interface OrderSearchBarProps {
   value: string;
@@ -12,7 +12,7 @@ export const OrderSearchBar: React.FC<OrderSearchBarProps> = ({ value, onChangeT
   return (
     <View style={styles.searchSection}>
       <View style={styles.searchBar}>
-        <AppText style={styles.searchIcon}>🔍</AppText>
+        <Image source={SearchIcon} style={styles.searchIcon} />
         <TextInput
           style={styles.searchInput}
           placeholder="Search products..."

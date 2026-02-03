@@ -6,13 +6,9 @@ import { useNavigation } from '@react-navigation/native';
 
 let productsData: Product[] = [];
 try {
-  console.log('[useProps] Loading data.json...');
   const data = require('../../../data.json');
-  console.log('[useProps] Data loaded, type:', typeof data, 'isArray:', Array.isArray(data));
   productsData = Array.isArray(data) ? data : [];
-  console.log('[useProps] Products count:', productsData.length);
 } catch (error) {
-  console.error('[useProps] Failed to load products data:', error);
   productsData = [];
 }
 

@@ -18,32 +18,23 @@ import {
 const BOTTOM_BAR_HEIGHT = 180;
 
 const OrderScreen = () => {
-  console.log('[OrderScreen] Component rendering...');
-  
   const insets = useSafeAreaInsets();
   
   useEffect(() => {
-    console.log('[OrderScreen] Component mounted successfully');
   }, []);
 
   let orderScreenProps;
   let cartAnimationProps;
 
   try {
-    console.log('[OrderScreen] Calling useOrderScreen hook...');
     orderScreenProps = useOrderScreen();
-    console.log('[OrderScreen] useOrderScreen completed successfully');
   } catch (error) {
-    console.error('[OrderScreen] Error in useOrderScreen:', error);
     throw error;
   }
 
   try {
-    console.log('[OrderScreen] Calling useCartAnimation hook...');
     cartAnimationProps = useCartAnimation();
-    console.log('[OrderScreen] useCartAnimation completed successfully');
   } catch (error) {
-    console.error('[OrderScreen] Error in useCartAnimation:', error);
     throw error;
   }
 
