@@ -1,0 +1,11 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Nền trắng -->
+    <item android:drawable="@android:color/white" />
+    <!-- Logo -->
+    <item>
+        <bitmap
+            android:src="@drawable/logo_pharmacy"
+            android:gravity="center"
+            android:scaleType="centerInside" />
+    </item>
+</layer-list>

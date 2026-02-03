@@ -5,9 +5,12 @@ import { Provider } from 'react-redux';
 import { PersistGate } from 'redux-persist/integration/react';
 import { store, persistor } from '@redux';
 import { AppNavigator } from '@navigation';
+import BootSplash from "react-native-bootsplash";
+
 
 function App() {
   useEffect(() => {
+    BootSplash.hide({ fade: true });
   }, []);
 
   const onNavigationReady = useCallback(() => {

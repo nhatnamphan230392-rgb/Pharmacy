@@ -7,168 +7,170 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07305DC7179B478186AF837F /* Roboto_SemiCondensed-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71EF8AFAFD6740CD878B9D73 /* Roboto_SemiCondensed-SemiBoldItalic.ttf */; };
+		0C1EB42FE8BC4302AE35E67D /* Roboto_SemiCondensed-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0E9B7BAA96534A37BE9D7782 /* Roboto_SemiCondensed-LightItalic.ttf */; };
 		0C80B921A6F3F58F76C31292 /* libPods-Pharmacy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-Pharmacy.a */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
-		30C76370CCCAF442868BF418 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
-		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
-		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		3C96398C3A854796BE406591 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 190B9758E99043D8BE8A332D /* Roboto-Medium.ttf */; };
-		3701DFB5E2FC4EB2A6E64B44 /* Roboto_SemiCondensed-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E76A3E8438EE45E3AB91F701 /* Roboto_SemiCondensed-ExtraLightItalic.ttf */; };
-		43938F108F124F4C8EE33D06 /* Roboto_Condensed-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BAF14469A73A4CA9A79BDC12 /* Roboto_Condensed-ExtraLightItalic.ttf */; };
-		9E77880948414BC184B60045 /* Roboto_SemiCondensed-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DAB8E47D0F2145899492EAD0 /* Roboto_SemiCondensed-BoldItalic.ttf */; };
-		9775858B8C1741BCBBBECF29 /* Roboto_Condensed-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2B0446569AE54A35A7B83CB6 /* Roboto_Condensed-ExtraBoldItalic.ttf */; };
-		375A8CD61BE84AC2872BDC7F /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A633E83CF644194B683065E /* Roboto-Light.ttf */; };
-		A7E67D7207DD49248F3A0272 /* Montserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 21BB2E376B514BBA9A845970 /* Montserrat-LightItalic.ttf */; };
-		34A733904B1F4CA6BE58C66A /* Roboto_SemiCondensed-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B1BB9F61DC84B27A9D0E0DD /* Roboto_SemiCondensed-ThinItalic.ttf */; };
-		1CAF01E692644E31A60BBC47 /* Roboto_SemiCondensed-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C48D4B0340343F5B278811F /* Roboto_SemiCondensed-ExtraLight.ttf */; };
-		499268156A3A45D19EFC5A8D /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8BF40A3270004743A3C53172 /* Montserrat-Medium.ttf */; };
-		73BE094D111E4E36AF4EE064 /* Roboto_Condensed-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B47C59FEDC214504AF03B905 /* Roboto_Condensed-Black.ttf */; };
-		07305DC7179B478186AF837F /* Roboto_SemiCondensed-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71EF8AFAFD6740CD878B9D73 /* Roboto_SemiCondensed-SemiBoldItalic.ttf */; };
-		A022775FE1854A44BFB1D943 /* Roboto_SemiCondensed-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1F31585D31A47B2BF9F6DA1 /* Roboto_SemiCondensed-SemiBold.ttf */; };
-		67A972642C044145A6E5DBF6 /* Roboto_SemiCondensed-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 89FF8BB42CA54C93B12266F4 /* Roboto_SemiCondensed-ExtraBold.ttf */; };
-		C69E07E359E846C09EEF64D0 /* Roboto_SemiCondensed-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A04746D50C94260BA27FB3A /* Roboto_SemiCondensed-BlackItalic.ttf */; };
-		223FE6A2463845298BFF5087 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C0B304AD77B48C79891E1AA /* Roboto-Regular.ttf */; };
-		9528918B72B94E40AF972315 /* Roboto_Condensed-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FBE541D7FAF04FBAAE1543CC /* Roboto_Condensed-Italic.ttf */; };
 		13BA2FB3DF3443AEADAEFC40 /* Roboto_Condensed-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2EFA38320B2C4906BB1DAC8F /* Roboto_Condensed-SemiBold.ttf */; };
-		66BAF8E3753340FD9FE7AEDC /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F10368DF90614B749147049B /* Roboto-MediumItalic.ttf */; };
-		3758C086DCB944159D302005 /* Montserrat-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C2B0394BCEB44041B63E5E97 /* Montserrat-BoldItalic.ttf */; };
-		70A1E92371BD4A85A9BC8A69 /* Roboto_SemiCondensed-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1CFB1EFF02F648C9B58B97BD /* Roboto_SemiCondensed-Medium.ttf */; };
-		CF26ED86B93C41F8B57CC7B2 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01F6042D5A414879AA9839C6 /* Montserrat-Light.ttf */; };
-		A47F3267E613436FAF90263F /* Roboto_SemiCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2AAB19BD475F45EFA0180A62 /* Roboto_SemiCondensed-Bold.ttf */; };
-		7913A24D92424B2693EF7691 /* Montserrat-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 684A34D088D34EDE9FD49B14 /* Montserrat-ThinItalic.ttf */; };
-		0C1EB42FE8BC4302AE35E67D /* Roboto_SemiCondensed-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0E9B7BAA96534A37BE9D7782 /* Roboto_SemiCondensed-LightItalic.ttf */; };
-		8254899C2E74474C947ED454 /* Roboto-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84467C57247E43A7A8C0CE60 /* Roboto-ExtraBoldItalic.ttf */; };
-		464FBC23AA9E444CBAB6A590 /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DEB31EFD83074FABA5F6056B /* Montserrat-ExtraLight.ttf */; };
 		155D3DE0566B46DD81265E8F /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED75539ABE3749A0B6BE41CF /* Montserrat-Thin.ttf */; };
-		CF2D93B7CCD847759F9E5B14 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADD86CE4FDCB4CFDB73ACFF5 /* Montserrat-Bold.ttf */; };
-		2DA57C673D6142BF8EAB3A14 /* Montserrat-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D720AC5B2A62422C998F526A /* Montserrat-MediumItalic.ttf */; };
-		C175AF597B3741D391BA31A0 /* Roboto_SemiCondensed-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A932FFC09A844480843E1632 /* Roboto_SemiCondensed-Thin.ttf */; };
-		662AF09D48AA43DABE98DA9A /* Roboto-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71B26E66FC984FFEA25275B3 /* Roboto-SemiBoldItalic.ttf */; };
-		C84EB9F9258E4F689B2A77E9 /* Roboto_SemiCondensed-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38FBDC6D8049465D8AF9E359 /* Roboto_SemiCondensed-Black.ttf */; };
-		7F7009306F59460F8D66A880 /* Montserrat-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8D3DC68C10254542905FF9CB /* Montserrat-BlackItalic.ttf */; };
-		CC72C91FD07C423CB233BED8 /* Roboto_SemiCondensed-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 001F2ECC64FB43F2A2F30259 /* Roboto_SemiCondensed-ExtraBoldItalic.ttf */; };
-		474B87E2D715419CA46A9FF2 /* Roboto_SemiCondensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2BD995FDE4A34424AC38501E /* Roboto_SemiCondensed-Light.ttf */; };
-		6CE9C35B30EA4A4685A7CC58 /* Roboto_SemiCondensed-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7623DAB3F33741DDBB551B95 /* Roboto_SemiCondensed-MediumItalic.ttf */; };
-		76385977E8884DA697019084 /* Roboto-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 28C8C82257D64CA982388FFF /* Roboto-ExtraLightItalic.ttf */; };
-		2D0C6BA8E128471CB685F8CB /* Roboto_Condensed-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A1693047D034B13AFEDDA67 /* Roboto_Condensed-ExtraBold.ttf */; };
-		A7105E09098045FEA51FBC6B /* Roboto_Condensed-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0351F4AA625741539126203A /* Roboto_Condensed-BlackItalic.ttf */; };
-		FCEF24ECD5DE42DF9E3E48DE /* Roboto_Condensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 695B2BAF144047A997CF43D5 /* Roboto_Condensed-Regular.ttf */; };
-		CD437FF266E546AF9C8419C7 /* Roboto_Condensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12A6441155564BDB9206E681 /* Roboto_Condensed-Bold.ttf */; };
-		97AFC5E163614151BB49C2A1 /* Roboto_Condensed-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9799ABE7C40349D3B75ECB24 /* Roboto_Condensed-Medium.ttf */; };
-		D7DDE9A2567443FCA4E42005 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA87D6C0E0C74BC08B23269E /* Montserrat-SemiBold.ttf */; };
-		C862A64D9FD44DE0B3182339 /* Roboto_SemiCondensed-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 82834CD6E1A9494B947680A1 /* Roboto_SemiCondensed-Italic.ttf */; };
-		B9BF8699A41348718BFD70E5 /* Montserrat-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DDE1ACCB2E36490F9E1C2FEA /* Montserrat-ExtraLightItalic.ttf */; };
-		D122F91083D2442494293DB8 /* Roboto_Condensed-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E5CDF380A4164A758C8FEC37 /* Roboto_Condensed-BoldItalic.ttf */; };
-		2F9C09523BAF427B9881A308 /* Roboto-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9C32CFE4575F4F4DB39CFEB1 /* Roboto-ExtraLight.ttf */; };
-		DFE6BC28B59C4F4FB9784651 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF6C39BB49704A7DB1F27E54 /* Montserrat-ExtraBold.ttf */; };
-		BD8D06C24BDC45EDB0BC77AC /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02FC1CB1C82A4FC9B0513EFE /* Roboto-ThinItalic.ttf */; };
-		8808F080F17E4AE3AB361FC5 /* Roboto_Condensed-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5FB0FFC4E72E4D8E9620C2CE /* Roboto_Condensed-SemiBoldItalic.ttf */; };
-		2AFA245B9FAC47EEBAF92F33 /* Roboto_Condensed-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6BEA8F92111941E4A13C962D /* Roboto_Condensed-Thin.ttf */; };
-		9FCE7B04775741649F7E3DD3 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B05442FD5CD6442B8477B4B4 /* Roboto-BoldItalic.ttf */; };
-		9ABE3B42A6434DDD92A8E091 /* Roboto_Condensed-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C37A8E9469E641FBBD4EFAFB /* Roboto_Condensed-ExtraLight.ttf */; };
-		9A409D0BB49E41198D8FC8AB /* Roboto_Condensed-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC5C0A6DA2D14DD988D7E315 /* Roboto_Condensed-ThinItalic.ttf */; };
+		1CAF01E692644E31A60BBC47 /* Roboto_SemiCondensed-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C48D4B0340343F5B278811F /* Roboto_SemiCondensed-ExtraLight.ttf */; };
 		1E99429EC8B34EB6A533F5F2 /* Roboto_Condensed-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9214826A6AD14A92A7E153DE /* Roboto_Condensed-MediumItalic.ttf */; };
+		223FE6A2463845298BFF5087 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C0B304AD77B48C79891E1AA /* Roboto-Regular.ttf */; };
+		22AA98FB2F321D250078A433 /* logo_pharmacy.png in Resources */ = {isa = PBXBuildFile; fileRef = 22AA98FA2F321D250078A433 /* logo_pharmacy.png */; };
+		2AFA245B9FAC47EEBAF92F33 /* Roboto_Condensed-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6BEA8F92111941E4A13C962D /* Roboto_Condensed-Thin.ttf */; };
+		2D0C6BA8E128471CB685F8CB /* Roboto_Condensed-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A1693047D034B13AFEDDA67 /* Roboto_Condensed-ExtraBold.ttf */; };
+		2DA57C673D6142BF8EAB3A14 /* Montserrat-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D720AC5B2A62422C998F526A /* Montserrat-MediumItalic.ttf */; };
+		2F9C09523BAF427B9881A308 /* Roboto-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9C32CFE4575F4F4DB39CFEB1 /* Roboto-ExtraLight.ttf */; };
+		30C76370CCCAF442868BF418 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		34A733904B1F4CA6BE58C66A /* Roboto_SemiCondensed-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B1BB9F61DC84B27A9D0E0DD /* Roboto_SemiCondensed-ThinItalic.ttf */; };
+		3701DFB5E2FC4EB2A6E64B44 /* Roboto_SemiCondensed-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E76A3E8438EE45E3AB91F701 /* Roboto_SemiCondensed-ExtraLightItalic.ttf */; };
+		3758C086DCB944159D302005 /* Montserrat-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C2B0394BCEB44041B63E5E97 /* Montserrat-BoldItalic.ttf */; };
+		375A8CD61BE84AC2872BDC7F /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A633E83CF644194B683065E /* Roboto-Light.ttf */; };
+		3C96398C3A854796BE406591 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 190B9758E99043D8BE8A332D /* Roboto-Medium.ttf */; };
+		43938F108F124F4C8EE33D06 /* Roboto_Condensed-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BAF14469A73A4CA9A79BDC12 /* Roboto_Condensed-ExtraLightItalic.ttf */; };
+		464FBC23AA9E444CBAB6A590 /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DEB31EFD83074FABA5F6056B /* Montserrat-ExtraLight.ttf */; };
+		474B87E2D715419CA46A9FF2 /* Roboto_SemiCondensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2BD995FDE4A34424AC38501E /* Roboto_SemiCondensed-Light.ttf */; };
+		499268156A3A45D19EFC5A8D /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8BF40A3270004743A3C53172 /* Montserrat-Medium.ttf */; };
+		512867F7EBC14C54AAD64D57 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED27E825EFC94839AD50D4CB /* Roboto-Bold.ttf */; };
+		54AB0BFA74F1428F88BBA37C /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38AB1BC3C6014DD59DB6815B /* Roboto-Italic.ttf */; };
+		570BE9F50BD4432FBB05DFFA /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 970E7D6DFF2B4026BDF4C67C /* Roboto-Black.ttf */; };
+		5765EB34DB5946958A826B4A /* Roboto_SemiCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4BBC3E444A624B858ECF0BB6 /* Roboto_SemiCondensed-Regular.ttf */; };
+		662AF09D48AA43DABE98DA9A /* Roboto-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71B26E66FC984FFEA25275B3 /* Roboto-SemiBoldItalic.ttf */; };
+		66BAF8E3753340FD9FE7AEDC /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F10368DF90614B749147049B /* Roboto-MediumItalic.ttf */; };
+		67A972642C044145A6E5DBF6 /* Roboto_SemiCondensed-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 89FF8BB42CA54C93B12266F4 /* Roboto_SemiCondensed-ExtraBold.ttf */; };
+		6AC11C5B3C7B483BA993ED8A /* Montserrat-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8C35213542A64091869E483B /* Montserrat-ExtraBoldItalic.ttf */; };
+		6B515C6E9B6B480DA1B6991A /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A0CDC10EB9D424F8026B968 /* Roboto-Thin.ttf */; };
+		6CE9C35B30EA4A4685A7CC58 /* Roboto_SemiCondensed-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7623DAB3F33741DDBB551B95 /* Roboto_SemiCondensed-MediumItalic.ttf */; };
+		70A1E92371BD4A85A9BC8A69 /* Roboto_SemiCondensed-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1CFB1EFF02F648C9B58B97BD /* Roboto_SemiCondensed-Medium.ttf */; };
+		73BE094D111E4E36AF4EE064 /* Roboto_Condensed-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B47C59FEDC214504AF03B905 /* Roboto_Condensed-Black.ttf */; };
+		760AF9F547774B71B90ABA57 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E835EBEDD8C44871B902EF36 /* Roboto-BlackItalic.ttf */; };
+		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
+		76385977E8884DA697019084 /* Roboto-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 28C8C82257D64CA982388FFF /* Roboto-ExtraLightItalic.ttf */; };
+		7913A24D92424B2693EF7691 /* Montserrat-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 684A34D088D34EDE9FD49B14 /* Montserrat-ThinItalic.ttf */; };
+		7D3C6675702C4E4AA7A6B2C5 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B212CE34467D4A128CC8F677 /* Montserrat-Regular.ttf */; };
+		7F7009306F59460F8D66A880 /* Montserrat-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8D3DC68C10254542905FF9CB /* Montserrat-BlackItalic.ttf */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		8254899C2E74474C947ED454 /* Roboto-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84467C57247E43A7A8C0CE60 /* Roboto-ExtraBoldItalic.ttf */; };
 		862379AE1E5D4B1DA254E676 /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E46366B286A24CDE8A2E3F4C /* Montserrat-Black.ttf */; };
 		865FA3DDD0924F0BBFBD9E34 /* Roboto-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E7E6433D7614DFF9ECEC1C4 /* Roboto-ExtraBold.ttf */; };
-		F724882B666B45CD9C3CE889 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F7E120E183E444A8044E22B /* Roboto-LightItalic.ttf */; };
-		5765EB34DB5946958A826B4A /* Roboto_SemiCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4BBC3E444A624B858ECF0BB6 /* Roboto_SemiCondensed-Regular.ttf */; };
-		C23B97630AF34912B345FEDA /* Roboto-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 489FD4895A904A33B54C8449 /* Roboto-SemiBold.ttf */; };
-		7D3C6675702C4E4AA7A6B2C5 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B212CE34467D4A128CC8F677 /* Montserrat-Regular.ttf */; };
-		DE3BE203E98A492F9C8874E3 /* Montserrat-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E55BD94ED86C4DB090A67A01 /* Montserrat-Italic.ttf */; };
-		54AB0BFA74F1428F88BBA37C /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38AB1BC3C6014DD59DB6815B /* Roboto-Italic.ttf */; };
-		760AF9F547774B71B90ABA57 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E835EBEDD8C44871B902EF36 /* Roboto-BlackItalic.ttf */; };
-		512867F7EBC14C54AAD64D57 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED27E825EFC94839AD50D4CB /* Roboto-Bold.ttf */; };
-		6B515C6E9B6B480DA1B6991A /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A0CDC10EB9D424F8026B968 /* Roboto-Thin.ttf */; };
-		570BE9F50BD4432FBB05DFFA /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 970E7D6DFF2B4026BDF4C67C /* Roboto-Black.ttf */; };
+		8808F080F17E4AE3AB361FC5 /* Roboto_Condensed-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5FB0FFC4E72E4D8E9620C2CE /* Roboto_Condensed-SemiBoldItalic.ttf */; };
 		8AE0A8C6B27E45AAA916C3D4 /* Roboto_Condensed-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A65077163BB44C86A125D584 /* Roboto_Condensed-LightItalic.ttf */; };
+		9528918B72B94E40AF972315 /* Roboto_Condensed-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FBE541D7FAF04FBAAE1543CC /* Roboto_Condensed-Italic.ttf */; };
+		9775858B8C1741BCBBBECF29 /* Roboto_Condensed-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2B0446569AE54A35A7B83CB6 /* Roboto_Condensed-ExtraBoldItalic.ttf */; };
+		97AFC5E163614151BB49C2A1 /* Roboto_Condensed-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9799ABE7C40349D3B75ECB24 /* Roboto_Condensed-Medium.ttf */; };
+		9A409D0BB49E41198D8FC8AB /* Roboto_Condensed-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC5C0A6DA2D14DD988D7E315 /* Roboto_Condensed-ThinItalic.ttf */; };
+		9ABE3B42A6434DDD92A8E091 /* Roboto_Condensed-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C37A8E9469E641FBBD4EFAFB /* Roboto_Condensed-ExtraLight.ttf */; };
+		9E77880948414BC184B60045 /* Roboto_SemiCondensed-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DAB8E47D0F2145899492EAD0 /* Roboto_SemiCondensed-BoldItalic.ttf */; };
+		9FCE7B04775741649F7E3DD3 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B05442FD5CD6442B8477B4B4 /* Roboto-BoldItalic.ttf */; };
+		A022775FE1854A44BFB1D943 /* Roboto_SemiCondensed-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1F31585D31A47B2BF9F6DA1 /* Roboto_SemiCondensed-SemiBold.ttf */; };
 		A2229E508F604D9189F8D950 /* Roboto_Condensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0B53EFC945B142D589CA8086 /* Roboto_Condensed-Light.ttf */; };
+		A47F3267E613436FAF90263F /* Roboto_SemiCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2AAB19BD475F45EFA0180A62 /* Roboto_SemiCondensed-Bold.ttf */; };
+		A7105E09098045FEA51FBC6B /* Roboto_Condensed-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0351F4AA625741539126203A /* Roboto_Condensed-BlackItalic.ttf */; };
+		A7E67D7207DD49248F3A0272 /* Montserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 21BB2E376B514BBA9A845970 /* Montserrat-LightItalic.ttf */; };
+		B9BF8699A41348718BFD70E5 /* Montserrat-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DDE1ACCB2E36490F9E1C2FEA /* Montserrat-ExtraLightItalic.ttf */; };
+		BD8D06C24BDC45EDB0BC77AC /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 02FC1CB1C82A4FC9B0513EFE /* Roboto-ThinItalic.ttf */; };
+		C175AF597B3741D391BA31A0 /* Roboto_SemiCondensed-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A932FFC09A844480843E1632 /* Roboto_SemiCondensed-Thin.ttf */; };
+		C23B97630AF34912B345FEDA /* Roboto-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 489FD4895A904A33B54C8449 /* Roboto-SemiBold.ttf */; };
+		C69E07E359E846C09EEF64D0 /* Roboto_SemiCondensed-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A04746D50C94260BA27FB3A /* Roboto_SemiCondensed-BlackItalic.ttf */; };
+		C84EB9F9258E4F689B2A77E9 /* Roboto_SemiCondensed-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38FBDC6D8049465D8AF9E359 /* Roboto_SemiCondensed-Black.ttf */; };
+		C862A64D9FD44DE0B3182339 /* Roboto_SemiCondensed-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 82834CD6E1A9494B947680A1 /* Roboto_SemiCondensed-Italic.ttf */; };
+		CC72C91FD07C423CB233BED8 /* Roboto_SemiCondensed-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 001F2ECC64FB43F2A2F30259 /* Roboto_SemiCondensed-ExtraBoldItalic.ttf */; };
+		CD437FF266E546AF9C8419C7 /* Roboto_Condensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12A6441155564BDB9206E681 /* Roboto_Condensed-Bold.ttf */; };
 		CDA85368261146329F124B8F /* Montserrat-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DC939945042145E2A9E6B4AF /* Montserrat-SemiBoldItalic.ttf */; };
-		6AC11C5B3C7B483BA993ED8A /* Montserrat-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8C35213542A64091869E483B /* Montserrat-ExtraBoldItalic.ttf */; };
+		CF26ED86B93C41F8B57CC7B2 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01F6042D5A414879AA9839C6 /* Montserrat-Light.ttf */; };
+		CF2D93B7CCD847759F9E5B14 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADD86CE4FDCB4CFDB73ACFF5 /* Montserrat-Bold.ttf */; };
+		D122F91083D2442494293DB8 /* Roboto_Condensed-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E5CDF380A4164A758C8FEC37 /* Roboto_Condensed-BoldItalic.ttf */; };
+		D7DDE9A2567443FCA4E42005 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA87D6C0E0C74BC08B23269E /* Montserrat-SemiBold.ttf */; };
+		DE3BE203E98A492F9C8874E3 /* Montserrat-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E55BD94ED86C4DB090A67A01 /* Montserrat-Italic.ttf */; };
+		DFE6BC28B59C4F4FB9784651 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF6C39BB49704A7DB1F27E54 /* Montserrat-ExtraBold.ttf */; };
+		F724882B666B45CD9C3CE889 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F7E120E183E444A8044E22B /* Roboto-LightItalic.ttf */; };
+		FCEF24ECD5DE42DF9E3E48DE /* Roboto_Condensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 695B2BAF144047A997CF43D5 /* Roboto_Condensed-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		001F2ECC64FB43F2A2F30259 /* Roboto_SemiCondensed-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto_SemiCondensed-ExtraBoldItalic.ttf"; path = "../app/assets/fonts/Roboto_SemiCondensed-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		01F6042D5A414879AA9839C6 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Light.ttf"; path = "../app/assets/fonts/Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		02FC1CB1C82A4FC9B0513EFE /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-ThinItalic.ttf"; path = "../app/assets/fonts/Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		0351F4AA625741539126203A /* Roboto_Condensed-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto_Condensed-BlackItalic.ttf"; path = "../app/assets/fonts/Roboto_Condensed-BlackItalic.ttf"; sourceTree = "<group>"; };
+		0A1693047D034B13AFEDDA67 /* Roboto_Condensed-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto_Condensed-ExtraBold.ttf"; path = "../app/assets/fonts/Roboto_Condensed-ExtraBold.ttf"; sourceTree = "<group>"; };
+		0B53EFC945B142D589CA8086 /* Roboto_Condensed-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto_Condensed-Light.ttf"; path = "../app/assets/fonts/Roboto_Condensed-Light.ttf"; sourceTree = "<group>"; };
+		0C0B304AD77B48C79891E1AA /* Roboto-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Regular.ttf"; path = "../app/assets/fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		0E9B7BAA96534A37BE9D7782 /* Roboto_SemiCondensed-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto_SemiCondensed-LightItalic.ttf"; path = "../app/assets/fonts/Roboto_SemiCondensed-LightItalic.ttf"; sourceTree = "<group>"; };
+		0F7E120E183E444A8044E22B /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-LightItalic.ttf"; path = "../app/assets/fonts/Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		12A6441155564BDB9206E681 /* Roboto_Condensed-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto_Condensed-Bold.ttf"; path = "../app/assets/fonts/Roboto_Condensed-Bold.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* Pharmacy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pharmacy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Pharmacy/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Pharmacy/Info.plist; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = Pharmacy/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		190B9758E99043D8BE8A332D /* Roboto-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Medium.ttf"; path = "../app/assets/fonts/Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		1CFB1EFF02F648C9B58B97BD /* Roboto_SemiCondensed-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto_SemiCondensed-Medium.ttf"; path = "../app/assets/fonts/Roboto_SemiCondensed-Medium.ttf"; sourceTree = "<group>"; };
+		21BB2E376B514BBA9A845970 /* Montserrat-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-LightItalic.ttf"; path = "../app/assets/fonts/Montserrat-LightItalic.ttf"; sourceTree = "<group>"; };
+		22AA98FA2F321D250078A433 /* logo_pharmacy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_pharmacy.png; sourceTree = "<group>"; };
+		28C8C82257D64CA982388FFF /* Roboto-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-ExtraLightItalic.ttf"; path = "../app/assets/fonts/Roboto-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		2AAB19BD475F45EFA0180A62 /* Roboto_SemiCondensed-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto_SemiCondensed-Bold.ttf"; path = "../app/assets/fonts/Roboto_SemiCondensed-Bold.ttf"; sourceTree = "<group>"; };
+		2B0446569AE54A35A7B83CB6 /* Roboto_Condensed-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto_Condensed-ExtraBoldItalic.ttf"; path = "../app/assets/fonts/Roboto_Condensed-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		2BD995FDE4A34424AC38501E /* Roboto_SemiCondensed-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto_SemiCondensed-Light.ttf"; path = "../app/assets/fonts/Roboto_SemiCondensed-Light.ttf"; sourceTree = "<group>"; };
+		2EFA38320B2C4906BB1DAC8F /* Roboto_Condensed-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto_Condensed-SemiBold.ttf"; path = "../app/assets/fonts/Roboto_Condensed-SemiBold.ttf"; sourceTree = "<group>"; };
+		38AB1BC3C6014DD59DB6815B /* Roboto-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Italic.ttf"; path = "../app/assets/fonts/Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		38FBDC6D8049465D8AF9E359 /* Roboto_SemiCondensed-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto_SemiCondensed-Black.ttf"; path = "../app/assets/fonts/Roboto_SemiCondensed-Black.ttf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-Pharmacy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pharmacy.debug.xcconfig"; path = "Target Support Files/Pods-Pharmacy/Pods-Pharmacy.debug.xcconfig"; sourceTree = "<group>"; };
+		489FD4895A904A33B54C8449 /* Roboto-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-SemiBold.ttf"; path = "../app/assets/fonts/Roboto-SemiBold.ttf"; sourceTree = "<group>"; };
+		4A0CDC10EB9D424F8026B968 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Thin.ttf"; path = "../app/assets/fonts/Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		4BBC3E444A624B858ECF0BB6 /* Roboto_SemiCondensed-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto_SemiCondensed-Regular.ttf"; path = "../app/assets/fonts/Roboto_SemiCondensed-Regular.ttf"; sourceTree = "<group>"; };
+		4C48D4B0340343F5B278811F /* Roboto_SemiCondensed-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto_SemiCondensed-ExtraLight.ttf"; path = "../app/assets/fonts/Roboto_SemiCondensed-ExtraLight.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-Pharmacy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pharmacy.release.xcconfig"; path = "Target Support Files/Pods-Pharmacy/Pods-Pharmacy.release.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-Pharmacy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Pharmacy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FB0FFC4E72E4D8E9620C2CE /* Roboto_Condensed-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto_Condensed-SemiBoldItalic.ttf"; path = "../app/assets/fonts/Roboto_Condensed-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		684A34D088D34EDE9FD49B14 /* Montserrat-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ThinItalic.ttf"; path = "../app/assets/fonts/Montserrat-ThinItalic.ttf"; sourceTree = "<group>"; };
+		695B2BAF144047A997CF43D5 /* Roboto_Condensed-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto_Condensed-Regular.ttf"; path = "../app/assets/fonts/Roboto_Condensed-Regular.ttf"; sourceTree = "<group>"; };
+		6BEA8F92111941E4A13C962D /* Roboto_Condensed-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto_Condensed-Thin.ttf"; path = "../app/assets/fonts/Roboto_Condensed-Thin.ttf"; sourceTree = "<group>"; };
+		71B26E66FC984FFEA25275B3 /* Roboto-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-SemiBoldItalic.ttf"; path = "../app/assets/fonts/Roboto-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		71EF8AFAFD6740CD878B9D73 /* Roboto_SemiCondensed-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto_SemiCondensed-SemiBoldItalic.ttf"; path = "../app/assets/fonts/Roboto_SemiCondensed-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Pharmacy/AppDelegate.swift; sourceTree = "<group>"; };
+		7623DAB3F33741DDBB551B95 /* Roboto_SemiCondensed-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto_SemiCondensed-MediumItalic.ttf"; path = "../app/assets/fonts/Roboto_SemiCondensed-MediumItalic.ttf"; sourceTree = "<group>"; };
+		7B1BB9F61DC84B27A9D0E0DD /* Roboto_SemiCondensed-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto_SemiCondensed-ThinItalic.ttf"; path = "../app/assets/fonts/Roboto_SemiCondensed-ThinItalic.ttf"; sourceTree = "<group>"; };
+		7E7E6433D7614DFF9ECEC1C4 /* Roboto-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-ExtraBold.ttf"; path = "../app/assets/fonts/Roboto-ExtraBold.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Pharmacy/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82834CD6E1A9494B947680A1 /* Roboto_SemiCondensed-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto_SemiCondensed-Italic.ttf"; path = "../app/assets/fonts/Roboto_SemiCondensed-Italic.ttf"; sourceTree = "<group>"; };
+		84467C57247E43A7A8C0CE60 /* Roboto-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-ExtraBoldItalic.ttf"; path = "../app/assets/fonts/Roboto-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		89FF8BB42CA54C93B12266F4 /* Roboto_SemiCondensed-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto_SemiCondensed-ExtraBold.ttf"; path = "../app/assets/fonts/Roboto_SemiCondensed-ExtraBold.ttf"; sourceTree = "<group>"; };
+		8BF40A3270004743A3C53172 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Medium.ttf"; path = "../app/assets/fonts/Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		8C35213542A64091869E483B /* Montserrat-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraBoldItalic.ttf"; path = "../app/assets/fonts/Montserrat-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		8D3DC68C10254542905FF9CB /* Montserrat-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-BlackItalic.ttf"; path = "../app/assets/fonts/Montserrat-BlackItalic.ttf"; sourceTree = "<group>"; };
+		9214826A6AD14A92A7E153DE /* Roboto_Condensed-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto_Condensed-MediumItalic.ttf"; path = "../app/assets/fonts/Roboto_Condensed-MediumItalic.ttf"; sourceTree = "<group>"; };
+		970E7D6DFF2B4026BDF4C67C /* Roboto-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Black.ttf"; path = "../app/assets/fonts/Roboto-Black.ttf"; sourceTree = "<group>"; };
+		9799ABE7C40349D3B75ECB24 /* Roboto_Condensed-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto_Condensed-Medium.ttf"; path = "../app/assets/fonts/Roboto_Condensed-Medium.ttf"; sourceTree = "<group>"; };
+		9A04746D50C94260BA27FB3A /* Roboto_SemiCondensed-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto_SemiCondensed-BlackItalic.ttf"; path = "../app/assets/fonts/Roboto_SemiCondensed-BlackItalic.ttf"; sourceTree = "<group>"; };
+		9A633E83CF644194B683065E /* Roboto-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Light.ttf"; path = "../app/assets/fonts/Roboto-Light.ttf"; sourceTree = "<group>"; };
+		9C32CFE4575F4F4DB39CFEB1 /* Roboto-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-ExtraLight.ttf"; path = "../app/assets/fonts/Roboto-ExtraLight.ttf"; sourceTree = "<group>"; };
+		A1F31585D31A47B2BF9F6DA1 /* Roboto_SemiCondensed-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto_SemiCondensed-SemiBold.ttf"; path = "../app/assets/fonts/Roboto_SemiCondensed-SemiBold.ttf"; sourceTree = "<group>"; };
+		A65077163BB44C86A125D584 /* Roboto_Condensed-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto_Condensed-LightItalic.ttf"; path = "../app/assets/fonts/Roboto_Condensed-LightItalic.ttf"; sourceTree = "<group>"; };
+		A932FFC09A844480843E1632 /* Roboto_SemiCondensed-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto_SemiCondensed-Thin.ttf"; path = "../app/assets/fonts/Roboto_SemiCondensed-Thin.ttf"; sourceTree = "<group>"; };
+		ADD86CE4FDCB4CFDB73ACFF5 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Bold.ttf"; path = "../app/assets/fonts/Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		AF6C39BB49704A7DB1F27E54 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraBold.ttf"; path = "../app/assets/fonts/Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		B05442FD5CD6442B8477B4B4 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-BoldItalic.ttf"; path = "../app/assets/fonts/Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		B212CE34467D4A128CC8F677 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Regular.ttf"; path = "../app/assets/fonts/Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		B47C59FEDC214504AF03B905 /* Roboto_Condensed-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto_Condensed-Black.ttf"; path = "../app/assets/fonts/Roboto_Condensed-Black.ttf"; sourceTree = "<group>"; };
+		BAF14469A73A4CA9A79BDC12 /* Roboto_Condensed-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto_Condensed-ExtraLightItalic.ttf"; path = "../app/assets/fonts/Roboto_Condensed-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		C2B0394BCEB44041B63E5E97 /* Montserrat-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-BoldItalic.ttf"; path = "../app/assets/fonts/Montserrat-BoldItalic.ttf"; sourceTree = "<group>"; };
+		C37A8E9469E641FBBD4EFAFB /* Roboto_Condensed-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto_Condensed-ExtraLight.ttf"; path = "../app/assets/fonts/Roboto_Condensed-ExtraLight.ttf"; sourceTree = "<group>"; };
+		CC5C0A6DA2D14DD988D7E315 /* Roboto_Condensed-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto_Condensed-ThinItalic.ttf"; path = "../app/assets/fonts/Roboto_Condensed-ThinItalic.ttf"; sourceTree = "<group>"; };
+		D720AC5B2A62422C998F526A /* Montserrat-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-MediumItalic.ttf"; path = "../app/assets/fonts/Montserrat-MediumItalic.ttf"; sourceTree = "<group>"; };
+		DAB8E47D0F2145899492EAD0 /* Roboto_SemiCondensed-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto_SemiCondensed-BoldItalic.ttf"; path = "../app/assets/fonts/Roboto_SemiCondensed-BoldItalic.ttf"; sourceTree = "<group>"; };
+		DC939945042145E2A9E6B4AF /* Montserrat-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-SemiBoldItalic.ttf"; path = "../app/assets/fonts/Montserrat-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		DDE1ACCB2E36490F9E1C2FEA /* Montserrat-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraLightItalic.ttf"; path = "../app/assets/fonts/Montserrat-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		DEB31EFD83074FABA5F6056B /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraLight.ttf"; path = "../app/assets/fonts/Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; };
+		E46366B286A24CDE8A2E3F4C /* Montserrat-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Black.ttf"; path = "../app/assets/fonts/Montserrat-Black.ttf"; sourceTree = "<group>"; };
+		E55BD94ED86C4DB090A67A01 /* Montserrat-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Italic.ttf"; path = "../app/assets/fonts/Montserrat-Italic.ttf"; sourceTree = "<group>"; };
+		E5CDF380A4164A758C8FEC37 /* Roboto_Condensed-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto_Condensed-BoldItalic.ttf"; path = "../app/assets/fonts/Roboto_Condensed-BoldItalic.ttf"; sourceTree = "<group>"; };
+		E76A3E8438EE45E3AB91F701 /* Roboto_SemiCondensed-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto_SemiCondensed-ExtraLightItalic.ttf"; path = "../app/assets/fonts/Roboto_SemiCondensed-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		E835EBEDD8C44871B902EF36 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-BlackItalic.ttf"; path = "../app/assets/fonts/Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		ED27E825EFC94839AD50D4CB /* Roboto-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Bold.ttf"; path = "../app/assets/fonts/Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		190B9758E99043D8BE8A332D /* Roboto-Medium.ttf */ = {isa = PBXFileReference; name = "Roboto-Medium.ttf"; path = "../app/assets/fonts/Roboto-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		E76A3E8438EE45E3AB91F701 /* Roboto_SemiCondensed-ExtraLightItalic.ttf */ = {isa = PBXFileReference; name = "Roboto_SemiCondensed-ExtraLightItalic.ttf"; path = "../app/assets/fonts/Roboto_SemiCondensed-ExtraLightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		BAF14469A73A4CA9A79BDC12 /* Roboto_Condensed-ExtraLightItalic.ttf */ = {isa = PBXFileReference; name = "Roboto_Condensed-ExtraLightItalic.ttf"; path = "../app/assets/fonts/Roboto_Condensed-ExtraLightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		DAB8E47D0F2145899492EAD0 /* Roboto_SemiCondensed-BoldItalic.ttf */ = {isa = PBXFileReference; name = "Roboto_SemiCondensed-BoldItalic.ttf"; path = "../app/assets/fonts/Roboto_SemiCondensed-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		2B0446569AE54A35A7B83CB6 /* Roboto_Condensed-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; name = "Roboto_Condensed-ExtraBoldItalic.ttf"; path = "../app/assets/fonts/Roboto_Condensed-ExtraBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		9A633E83CF644194B683065E /* Roboto-Light.ttf */ = {isa = PBXFileReference; name = "Roboto-Light.ttf"; path = "../app/assets/fonts/Roboto-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		21BB2E376B514BBA9A845970 /* Montserrat-LightItalic.ttf */ = {isa = PBXFileReference; name = "Montserrat-LightItalic.ttf"; path = "../app/assets/fonts/Montserrat-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		7B1BB9F61DC84B27A9D0E0DD /* Roboto_SemiCondensed-ThinItalic.ttf */ = {isa = PBXFileReference; name = "Roboto_SemiCondensed-ThinItalic.ttf"; path = "../app/assets/fonts/Roboto_SemiCondensed-ThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		4C48D4B0340343F5B278811F /* Roboto_SemiCondensed-ExtraLight.ttf */ = {isa = PBXFileReference; name = "Roboto_SemiCondensed-ExtraLight.ttf"; path = "../app/assets/fonts/Roboto_SemiCondensed-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		8BF40A3270004743A3C53172 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; name = "Montserrat-Medium.ttf"; path = "../app/assets/fonts/Montserrat-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		B47C59FEDC214504AF03B905 /* Roboto_Condensed-Black.ttf */ = {isa = PBXFileReference; name = "Roboto_Condensed-Black.ttf"; path = "../app/assets/fonts/Roboto_Condensed-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		71EF8AFAFD6740CD878B9D73 /* Roboto_SemiCondensed-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "Roboto_SemiCondensed-SemiBoldItalic.ttf"; path = "../app/assets/fonts/Roboto_SemiCondensed-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		A1F31585D31A47B2BF9F6DA1 /* Roboto_SemiCondensed-SemiBold.ttf */ = {isa = PBXFileReference; name = "Roboto_SemiCondensed-SemiBold.ttf"; path = "../app/assets/fonts/Roboto_SemiCondensed-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		89FF8BB42CA54C93B12266F4 /* Roboto_SemiCondensed-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Roboto_SemiCondensed-ExtraBold.ttf"; path = "../app/assets/fonts/Roboto_SemiCondensed-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		9A04746D50C94260BA27FB3A /* Roboto_SemiCondensed-BlackItalic.ttf */ = {isa = PBXFileReference; name = "Roboto_SemiCondensed-BlackItalic.ttf"; path = "../app/assets/fonts/Roboto_SemiCondensed-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		0C0B304AD77B48C79891E1AA /* Roboto-Regular.ttf */ = {isa = PBXFileReference; name = "Roboto-Regular.ttf"; path = "../app/assets/fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		FBE541D7FAF04FBAAE1543CC /* Roboto_Condensed-Italic.ttf */ = {isa = PBXFileReference; name = "Roboto_Condensed-Italic.ttf"; path = "../app/assets/fonts/Roboto_Condensed-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		2EFA38320B2C4906BB1DAC8F /* Roboto_Condensed-SemiBold.ttf */ = {isa = PBXFileReference; name = "Roboto_Condensed-SemiBold.ttf"; path = "../app/assets/fonts/Roboto_Condensed-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		F10368DF90614B749147049B /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; name = "Roboto-MediumItalic.ttf"; path = "../app/assets/fonts/Roboto-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		C2B0394BCEB44041B63E5E97 /* Montserrat-BoldItalic.ttf */ = {isa = PBXFileReference; name = "Montserrat-BoldItalic.ttf"; path = "../app/assets/fonts/Montserrat-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		1CFB1EFF02F648C9B58B97BD /* Roboto_SemiCondensed-Medium.ttf */ = {isa = PBXFileReference; name = "Roboto_SemiCondensed-Medium.ttf"; path = "../app/assets/fonts/Roboto_SemiCondensed-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		01F6042D5A414879AA9839C6 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; name = "Montserrat-Light.ttf"; path = "../app/assets/fonts/Montserrat-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		2AAB19BD475F45EFA0180A62 /* Roboto_SemiCondensed-Bold.ttf */ = {isa = PBXFileReference; name = "Roboto_SemiCondensed-Bold.ttf"; path = "../app/assets/fonts/Roboto_SemiCondensed-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		684A34D088D34EDE9FD49B14 /* Montserrat-ThinItalic.ttf */ = {isa = PBXFileReference; name = "Montserrat-ThinItalic.ttf"; path = "../app/assets/fonts/Montserrat-ThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		0E9B7BAA96534A37BE9D7782 /* Roboto_SemiCondensed-LightItalic.ttf */ = {isa = PBXFileReference; name = "Roboto_SemiCondensed-LightItalic.ttf"; path = "../app/assets/fonts/Roboto_SemiCondensed-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		84467C57247E43A7A8C0CE60 /* Roboto-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; name = "Roboto-ExtraBoldItalic.ttf"; path = "../app/assets/fonts/Roboto-ExtraBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		DEB31EFD83074FABA5F6056B /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; name = "Montserrat-ExtraLight.ttf"; path = "../app/assets/fonts/Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		ED75539ABE3749A0B6BE41CF /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; name = "Montserrat-Thin.ttf"; path = "../app/assets/fonts/Montserrat-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		ADD86CE4FDCB4CFDB73ACFF5 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; name = "Montserrat-Bold.ttf"; path = "../app/assets/fonts/Montserrat-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		D720AC5B2A62422C998F526A /* Montserrat-MediumItalic.ttf */ = {isa = PBXFileReference; name = "Montserrat-MediumItalic.ttf"; path = "../app/assets/fonts/Montserrat-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		A932FFC09A844480843E1632 /* Roboto_SemiCondensed-Thin.ttf */ = {isa = PBXFileReference; name = "Roboto_SemiCondensed-Thin.ttf"; path = "../app/assets/fonts/Roboto_SemiCondensed-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		71B26E66FC984FFEA25275B3 /* Roboto-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "Roboto-SemiBoldItalic.ttf"; path = "../app/assets/fonts/Roboto-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		38FBDC6D8049465D8AF9E359 /* Roboto_SemiCondensed-Black.ttf */ = {isa = PBXFileReference; name = "Roboto_SemiCondensed-Black.ttf"; path = "../app/assets/fonts/Roboto_SemiCondensed-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		8D3DC68C10254542905FF9CB /* Montserrat-BlackItalic.ttf */ = {isa = PBXFileReference; name = "Montserrat-BlackItalic.ttf"; path = "../app/assets/fonts/Montserrat-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		001F2ECC64FB43F2A2F30259 /* Roboto_SemiCondensed-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; name = "Roboto_SemiCondensed-ExtraBoldItalic.ttf"; path = "../app/assets/fonts/Roboto_SemiCondensed-ExtraBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		2BD995FDE4A34424AC38501E /* Roboto_SemiCondensed-Light.ttf */ = {isa = PBXFileReference; name = "Roboto_SemiCondensed-Light.ttf"; path = "../app/assets/fonts/Roboto_SemiCondensed-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		7623DAB3F33741DDBB551B95 /* Roboto_SemiCondensed-MediumItalic.ttf */ = {isa = PBXFileReference; name = "Roboto_SemiCondensed-MediumItalic.ttf"; path = "../app/assets/fonts/Roboto_SemiCondensed-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		28C8C82257D64CA982388FFF /* Roboto-ExtraLightItalic.ttf */ = {isa = PBXFileReference; name = "Roboto-ExtraLightItalic.ttf"; path = "../app/assets/fonts/Roboto-ExtraLightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		0A1693047D034B13AFEDDA67 /* Roboto_Condensed-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Roboto_Condensed-ExtraBold.ttf"; path = "../app/assets/fonts/Roboto_Condensed-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		0351F4AA625741539126203A /* Roboto_Condensed-BlackItalic.ttf */ = {isa = PBXFileReference; name = "Roboto_Condensed-BlackItalic.ttf"; path = "../app/assets/fonts/Roboto_Condensed-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		695B2BAF144047A997CF43D5 /* Roboto_Condensed-Regular.ttf */ = {isa = PBXFileReference; name = "Roboto_Condensed-Regular.ttf"; path = "../app/assets/fonts/Roboto_Condensed-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		12A6441155564BDB9206E681 /* Roboto_Condensed-Bold.ttf */ = {isa = PBXFileReference; name = "Roboto_Condensed-Bold.ttf"; path = "../app/assets/fonts/Roboto_Condensed-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		9799ABE7C40349D3B75ECB24 /* Roboto_Condensed-Medium.ttf */ = {isa = PBXFileReference; name = "Roboto_Condensed-Medium.ttf"; path = "../app/assets/fonts/Roboto_Condensed-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		FA87D6C0E0C74BC08B23269E /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; name = "Montserrat-SemiBold.ttf"; path = "../app/assets/fonts/Montserrat-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		82834CD6E1A9494B947680A1 /* Roboto_SemiCondensed-Italic.ttf */ = {isa = PBXFileReference; name = "Roboto_SemiCondensed-Italic.ttf"; path = "../app/assets/fonts/Roboto_SemiCondensed-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		DDE1ACCB2E36490F9E1C2FEA /* Montserrat-ExtraLightItalic.ttf */ = {isa = PBXFileReference; name = "Montserrat-ExtraLightItalic.ttf"; path = "../app/assets/fonts/Montserrat-ExtraLightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		E5CDF380A4164A758C8FEC37 /* Roboto_Condensed-BoldItalic.ttf */ = {isa = PBXFileReference; name = "Roboto_Condensed-BoldItalic.ttf"; path = "../app/assets/fonts/Roboto_Condensed-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		9C32CFE4575F4F4DB39CFEB1 /* Roboto-ExtraLight.ttf */ = {isa = PBXFileReference; name = "Roboto-ExtraLight.ttf"; path = "../app/assets/fonts/Roboto-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		AF6C39BB49704A7DB1F27E54 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Montserrat-ExtraBold.ttf"; path = "../app/assets/fonts/Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		02FC1CB1C82A4FC9B0513EFE /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; name = "Roboto-ThinItalic.ttf"; path = "../app/assets/fonts/Roboto-ThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		5FB0FFC4E72E4D8E9620C2CE /* Roboto_Condensed-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "Roboto_Condensed-SemiBoldItalic.ttf"; path = "../app/assets/fonts/Roboto_Condensed-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		6BEA8F92111941E4A13C962D /* Roboto_Condensed-Thin.ttf */ = {isa = PBXFileReference; name = "Roboto_Condensed-Thin.ttf"; path = "../app/assets/fonts/Roboto_Condensed-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		B05442FD5CD6442B8477B4B4 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; name = "Roboto-BoldItalic.ttf"; path = "../app/assets/fonts/Roboto-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		C37A8E9469E641FBBD4EFAFB /* Roboto_Condensed-ExtraLight.ttf */ = {isa = PBXFileReference; name = "Roboto_Condensed-ExtraLight.ttf"; path = "../app/assets/fonts/Roboto_Condensed-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		CC5C0A6DA2D14DD988D7E315 /* Roboto_Condensed-ThinItalic.ttf */ = {isa = PBXFileReference; name = "Roboto_Condensed-ThinItalic.ttf"; path = "../app/assets/fonts/Roboto_Condensed-ThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		9214826A6AD14A92A7E153DE /* Roboto_Condensed-MediumItalic.ttf */ = {isa = PBXFileReference; name = "Roboto_Condensed-MediumItalic.ttf"; path = "../app/assets/fonts/Roboto_Condensed-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		E46366B286A24CDE8A2E3F4C /* Montserrat-Black.ttf */ = {isa = PBXFileReference; name = "Montserrat-Black.ttf"; path = "../app/assets/fonts/Montserrat-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		7E7E6433D7614DFF9ECEC1C4 /* Roboto-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Roboto-ExtraBold.ttf"; path = "../app/assets/fonts/Roboto-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		0F7E120E183E444A8044E22B /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; name = "Roboto-LightItalic.ttf"; path = "../app/assets/fonts/Roboto-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		4BBC3E444A624B858ECF0BB6 /* Roboto_SemiCondensed-Regular.ttf */ = {isa = PBXFileReference; name = "Roboto_SemiCondensed-Regular.ttf"; path = "../app/assets/fonts/Roboto_SemiCondensed-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		489FD4895A904A33B54C8449 /* Roboto-SemiBold.ttf */ = {isa = PBXFileReference; name = "Roboto-SemiBold.ttf"; path = "../app/assets/fonts/Roboto-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		B212CE34467D4A128CC8F677 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; name = "Montserrat-Regular.ttf"; path = "../app/assets/fonts/Montserrat-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		E55BD94ED86C4DB090A67A01 /* Montserrat-Italic.ttf */ = {isa = PBXFileReference; name = "Montserrat-Italic.ttf"; path = "../app/assets/fonts/Montserrat-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		38AB1BC3C6014DD59DB6815B /* Roboto-Italic.ttf */ = {isa = PBXFileReference; name = "Roboto-Italic.ttf"; path = "../app/assets/fonts/Roboto-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		E835EBEDD8C44871B902EF36 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; name = "Roboto-BlackItalic.ttf"; path = "../app/assets/fonts/Roboto-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		ED27E825EFC94839AD50D4CB /* Roboto-Bold.ttf */ = {isa = PBXFileReference; name = "Roboto-Bold.ttf"; path = "../app/assets/fonts/Roboto-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		4A0CDC10EB9D424F8026B968 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; name = "Roboto-Thin.ttf"; path = "../app/assets/fonts/Roboto-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		970E7D6DFF2B4026BDF4C67C /* Roboto-Black.ttf */ = {isa = PBXFileReference; name = "Roboto-Black.ttf"; path = "../app/assets/fonts/Roboto-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		A65077163BB44C86A125D584 /* Roboto_Condensed-LightItalic.ttf */ = {isa = PBXFileReference; name = "Roboto_Condensed-LightItalic.ttf"; path = "../app/assets/fonts/Roboto_Condensed-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		0B53EFC945B142D589CA8086 /* Roboto_Condensed-Light.ttf */ = {isa = PBXFileReference; name = "Roboto_Condensed-Light.ttf"; path = "../app/assets/fonts/Roboto_Condensed-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		DC939945042145E2A9E6B4AF /* Montserrat-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "Montserrat-SemiBoldItalic.ttf"; path = "../app/assets/fonts/Montserrat-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		8C35213542A64091869E483B /* Montserrat-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; name = "Montserrat-ExtraBoldItalic.ttf"; path = "../app/assets/fonts/Montserrat-ExtraBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		ED75539ABE3749A0B6BE41CF /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Thin.ttf"; path = "../app/assets/fonts/Montserrat-Thin.ttf"; sourceTree = "<group>"; };
+		F10368DF90614B749147049B /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-MediumItalic.ttf"; path = "../app/assets/fonts/Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		FA87D6C0E0C74BC08B23269E /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-SemiBold.ttf"; path = "../app/assets/fonts/Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		FBE541D7FAF04FBAAE1543CC /* Roboto_Condensed-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto_Condensed-Italic.ttf"; path = "../app/assets/fonts/Roboto_Condensed-Italic.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +190,7 @@
 			children = (
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				761780EC2CA45674006654EE /* AppDelegate.swift */,
+				22AA98FA2F321D250078A433 /* logo_pharmacy.png */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
@@ -204,47 +207,8 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Libraries;
-			sourceTree = "<group>";
-		};
-		83CBB9F61A601CBA00E9B192 = {
-			isa = PBXGroup;
-			children = (
-				13B07FAE1A68108700A75B9A /* Pharmacy */,
-				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				83CBBA001A601CBA00E9B192 /* Products */,
-				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				BBD78D7AC51CEA395F1C20DB /* Pods */,
-				68B416312D904ED5A234DBC8 /* Resources */,
-			);
-			indentWidth = 2;
-			sourceTree = "<group>";
-			tabWidth = 2;
-			usesTabs = 0;
-		};
-		83CBBA001A601CBA00E9B192 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				13B07F961A680F5B00A75B9A /* Pharmacy.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3B4392A12AC88292D35C810B /* Pods-Pharmacy.debug.xcconfig */,
-				5709B34CF0A7D63546082F79 /* Pods-Pharmacy.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		68B416312D904ED5A234DBC8 /* Resources */ = {
-			isa = "PBXGroup";
+			isa = PBXGroup;
 			children = (
 				190B9758E99043D8BE8A332D /* Roboto-Medium.ttf */,
 				E76A3E8438EE45E3AB91F701 /* Roboto_SemiCondensed-ExtraLightItalic.ttf */,
@@ -321,7 +285,45 @@
 			);
 			name = Resources;
 			sourceTree = "<group>";
-			path = "";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* Pharmacy */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				68B416312D904ED5A234DBC8 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* Pharmacy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B4392A12AC88292D35C810B /* Pods-Pharmacy.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-Pharmacy.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -440,6 +442,7 @@
 				2AFA245B9FAC47EEBAF92F33 /* Roboto_Condensed-Thin.ttf in Resources */,
 				9FCE7B04775741649F7E3DD3 /* Roboto-BoldItalic.ttf in Resources */,
 				9ABE3B42A6434DDD92A8E091 /* Roboto_Condensed-ExtraLight.ttf in Resources */,
+				22AA98FB2F321D250078A433 /* logo_pharmacy.png in Resources */,
 				9A409D0BB49E41198D8FC8AB /* Roboto_Condensed-ThinItalic.ttf in Resources */,
 				1E99429EC8B34EB6A533F5F2 /* Roboto_Condensed-MediumItalic.ttf in Resources */,
 				862379AE1E5D4B1DA254E676 /* Montserrat-Black.ttf in Resources */,
@@ -488,9 +491,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Pharmacy/Pods-Pharmacy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Pharmacy/Pods-Pharmacy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -527,9 +534,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Pharmacy/Pods-Pharmacy-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Pharmacy/Pods-Pharmacy-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -560,6 +571,7 @@
 				DEVELOPMENT_TEAM = 68997GTJLD;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Pharmacy/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Pharmacy;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -588,6 +600,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 68997GTJLD;
 				INFOPLIST_FILE = Pharmacy/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Pharmacy;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -675,10 +688,7 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
@@ -747,10 +757,7 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;
