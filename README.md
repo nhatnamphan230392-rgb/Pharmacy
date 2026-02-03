@@ -1,7 +1,7 @@
 ## How to Run the App
 
 ### Prerequisites
-- Node.js 20
+- Node.js 18
 - React Native CLI
 - iOS: Xcode and CocoaPods
 - Android: Android Studio 
